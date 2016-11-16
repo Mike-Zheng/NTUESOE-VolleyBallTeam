@@ -1,0 +1,163 @@
+/*!
+ * MizUI v1.0.0 
+ * Copyright MizTech
+ * Licensed MikeZheng
+ * http://mike-zheng.github.io/
+ */
+
+@import "vendor/font-awesome/font-awesome";
+@import "vendor/hover/hover";
+@import "vendor/animate/animate";
+@import "vendor/bootstrap";
+@import "vendor/flexboxgrid";
+body {
+    background-color: #6f7881;
+    padding: 60px 20px;
+}
+
+.mik-container {
+    padding: 60px 0;
+    background-color: #FFF;
+    border-radius: 5px;
+    box-shadow: 4px 4px 12px 0 rgba(0, 0, 0, .3);
+    min-width: 540px;
+}
+
+.mik-logo {
+    position: absolute;
+    background-color: #FFF;
+    height: 50px;
+    width: 300px;
+    top: 30px;
+    margin-left: 20px;
+    border-radius: 5px;
+    // box-shadow: 4px 4px 12px 0 rgba(0,0,0,.3);
+    h4 {
+        font-size: 20px;
+        text-align: center;
+        font-weight: 600;
+        line-height: 10px;
+    }
+}
+
+.tshirt {
+    border-right: 1px solid #E8E8E8;
+    // position: absolute;
+    // top: 20px;
+    // left: 20px;
+    // border: 2px solid #000;
+    // box-shadow: 0px 1px 4px 0px rgba(0, 0, 0, 0.3);
+}
+
+.tshirt-container {
+    // border-right: 1px solid #E8E8E8;
+    position: relative;
+    width: 500px;
+    height: 460px;
+    border-radius: 2px;
+}
+
+.design {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    background-image: url("../image/design.png");
+    background-repeat: no-repeat;
+    background-size: 500px auto;
+    border-radius: 2px;
+}
+
+.shadow {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    opacity: 0.3;
+    background-image: url("../image/shadow.png");
+    background-repeat: no-repeat;
+    background-size: 500px auto;
+    border-radius: 2px;
+}
+
+.shape {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-image: url("../image/tshirt.png");
+    background-repeat: no-repeat;
+    background-size: 500px auto;
+    border-radius: 2px;
+}
+
+img {
+    width: 100%;
+}
+
+.palette {
+    padding: 0 50px;
+}
+
+.color {
+    cursor: pointer;
+    border-radius: 50%;
+    height: 80px;
+    width: 80px;
+    box-shadow: 4px 4px 12px 0 rgba(0, 0, 0, .3);
+    transition: transform 0.1s ease-in;
+    &:hover {
+        position: absolute;
+        transform: scale(1.2);
+    }
+}
+
+.palette-row {
+    margin-top: 50px;
+}
+
+.color-1 {
+    background-color: #DF372C;
+}
+
+.color-2 {
+    background-color: #f2ed71;
+}
+
+.color-3 {
+    background-color: #303136;
+}
+
+.color-4 {
+    background-color: #000;
+}
+
+.color-5 {
+    background-color: #FCA459;
+}
+
+.color-6 {
+    background-color: #c2e3f2;
+}
+
+.color-7 {
+    background-color: #326acf;
+}
+
+.color-8 {
+    background-color: #9F998D;
+}
+
+.color-9 {
+    background-color: #ffbbbb;
+}
+
+.color-10 {
+    background-color: #f2186c;
+}
+
+.color-11 {
+    background-color: #D0D96C;
+}
+
+.color-12 {
+    background-color: #322551;
+}
