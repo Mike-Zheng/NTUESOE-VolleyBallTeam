@@ -27,6 +27,7 @@
   },
   "dependencies": {
     "express": "^4.13.4",
+    "gulp-connect": "^5.0.0",
     "gulp-less-to-scss": "0.0.4",
     "multer": "^1.2.0"
   }
