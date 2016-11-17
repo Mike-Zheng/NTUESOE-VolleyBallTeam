@@ -4,13 +4,11 @@
  * Licensed MikeZheng
  * http://mike-zheng.github.io/
  */
-
 @import "vendor/font-awesome/font-awesome";
 @import "vendor/hover/hover";
 @import "vendor/animate/animate";
 @import "vendor/bootstrap";
 @import url(http://fonts.googleapis.com/css?family=Source+Sans+Pro:400,600,700);
-// @import "vendor/flexboxgrid";
 body {
     background-color: #333;
     padding: 60px 20px;
@@ -208,7 +206,7 @@ img {
 }
 
 footer {
-    // text-align: right;
+   
     margin-top: 10px;
     margin-right: 10px;
     a {
