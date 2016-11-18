@@ -22,10 +22,10 @@ body {
     // background-color: #FFF;
     // border-radius: 5px;
     // box-shadow: 4px 4px 12px 0 rgba(0, 0, 0, .3);
-    min-width: 540px;
-    padding: 10px 20%;
+    //  min-width: 500px;
+    // padding: 10px 20%;
     @media (max-width: 768px) {
-        padding: 10px 5%;
+        padding: 10px 10px;
     }
 }
 
@@ -80,7 +80,7 @@ body {
     border-right: 1px solid #E8E8E8;
     // width: 600px;
     // padding-top: 100px;
-    padding-bottom: 100px;
+    padding-bottom: 50px;
     border-radius: 5px;
     // box-shadow: 4px 4px 12px 0 rgba(0, 0, 0, .3);
     border-radius: 5px 5px 0 0;
@@ -96,6 +96,9 @@ body {
 }
 
 .tshirt-container {
+    @media (max-width: 768px) {
+        transform: scale(0.8);
+    }
     margin: 0 auto;
     // border-right: 1px solid #E8E8E8;
     position: relative;
@@ -141,6 +144,7 @@ img {
 }
 
 .palette {
+    height: 50px;
     @media (max-width: 768px) {
         width: 100%;
         // padding: 0 10px;
@@ -175,8 +179,8 @@ img {
     float: left;
     // display: inline-block;
     // display: inline-table;
-    height: 45px;
-    width: 45px;
+    height: 40px;
+    width: 40px;
     transition: transform 0.1s ease-in;
     &:hover {
         // position: absolute;
@@ -192,6 +196,10 @@ img {
     }
     display: inline-block;
     margin: 0;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 480px;
 }
 
 .color-1 {
@@ -248,7 +256,7 @@ footer {
     a {
         // color: #FFF;
         position: absolute;
-        top: 670px;
+        top: 620px;
         left: 470px;
         @media (max-width: 768px) {
             left: 200px;
