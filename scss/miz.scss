@@ -16,6 +16,7 @@ body {
     font-family: "Source Sans Pro", "Open Sans", Lato, "Helvetica Neue", Helvetica, Arial, "PingFang TC", "PingFang SC", STHeiti, 微軟正黑體, "Microsoft Yahei", sans-serif;
     margin: 0px;
     color: #343942;
+    // overflow:none;
 }
 
 .mik-container {
@@ -25,6 +26,7 @@ body {
     //  min-width: 500px;
     // padding: 10px 20%;
     width: 100%;
+    margin: 0 auto;
     @media (max-width: 768px) {
         padding: 10px 10px;
     }
@@ -74,6 +76,7 @@ body {
 }
 
 .tshirt {
+    width: 100%;
     @media (min-width: 768px) {
         width: 600px;
     }
@@ -106,8 +109,10 @@ body {
     height: 460px;
     border-radius: 2px;
     @media (max-width: 768px) {
-        width: 375px;
-        height: 345px;
+        // width: 375px;
+        // height: 345px;
+        width: 250px;
+        height: 230px;
     }
 }
 
@@ -151,6 +156,7 @@ img {
     height: 50px;
     @media (max-width: 768px) {
         width: 100%;
+        height: 120px;
         // padding: 0 10px;
     }
     @media (min-width: 768px) {
@@ -168,8 +174,8 @@ img {
 .color {
     @media (max-width: 768px) {
         //  display: inline-block;
-        height: 40px;
-        width: 40px;
+        height: 60px;
+        width: 60px;
     }
     margin: 0 auto;
     cursor: pointer;
@@ -197,6 +203,7 @@ img {
     @media (max-width: 768px) {
         display: inline-block;
         margin: 0;
+        width: 360px;
     }
     display: inline-block;
     margin: 0;
@@ -257,10 +264,14 @@ img {
 footer {
     margin-top: 10px;
     margin-right: 10px;
+    width: 80%;
     a {
+        @media (min-width: 768px) {
+            top: 620px;
+        }
         // color: #FFF;
         position: absolute;
-        top: 620px;
+        top: 400px;
         left: 50%;
         transform: translateX(-50%);
         font-size: 13px;
